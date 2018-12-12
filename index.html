@@ -81,7 +81,7 @@
         </div>
         <div>
 			<iframe width="550" height="315" style="float:right; margin-left: 10px; margin-bottom:7px;" src="https://www.youtube.com/embed/8lQFHbMYxh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<div>
+			<div >
 				<p class="text-muted">As an homage to Stan Lee’s complex and internationally diverse network of characters, we have decided to look into datasets on the Marvel Universe. The initial goal was inspired by the idea of a map of the world plotting out Marvel characters. Therefore, with this idea in mind, we decided to use the website categories “Characters” and  “Characters By Nationality” to find out the roots of the beloved comic book characters from the Marvel Universe. Thereby, we could investigate how community-like the comic book characters are with regards to their nationalities, by building a network  (directed graph) with characters as nodes and an edge between two characters if there is a link from the page of the first character to the other.</p>
 				<p class="text-muted">Yet, it’s impossible to mention the comic book character without discussing the Marvel Cinematic Universe. Therefore, we wanted to conduct some sentiment analysis of film transcripts showcasing interesting characters that we have identified in our network analysis. Thereby, we formulated the following problem statement:</p>
 
@@ -115,11 +115,11 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/statss.png" alt="">
+              <img class="img-fluid" src="img/basic_stats.png" alt="">
             </a>
-            <div class="portfolio-caption">
+            <!-- <div class="portfolio-caption">
               <h4>Basic Stats</h4>
-            </div>
+            </div> -->
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
@@ -128,11 +128,11 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/centrality.png" alt="">
+              <img class="img-fluid" src="img/centrality_measures.png" alt="">
             </a>
-            <div class="portfolio-caption">
+            <!-- <div class="portfolio-caption">
               <h4>Centrality Measures</h4>
-            </div>
+            </div> -->
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
@@ -141,11 +141,11 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/community.png" alt="">
+              <img class="img-fluid" src="img/community_detection.png" alt="">
             </a>
-            <div class="portfolio-caption">
+            <!-- <div class="portfolio-caption">
               <h4>Community Detection</h4>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -173,7 +173,7 @@
       </div>
     </div>
       <div class = "row">
-			<div class="col-lg-7" style="text-align: justify;">
+			<div class="col-lg-8" style="text-align: justify;">
         <p class="text-muted" style="margin-top: 120px; ">As seen in Iron Man’s word cloud, he’s often perceived as an arrogant character in the Marvel Universe. He always seems to have the need to know everything and be right about everything. He is also very dependent on his relationships with the characters Jarvis and Pepper. Lastly, the concept of time is always mentioned in his scenes - it seems as if Iron Man is always searching for more time.
         </p>
       </div>
@@ -194,7 +194,7 @@
             <h3 class="section-subheading text-muted"></h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row" style="text-align: justify;">
 			<p class="text-muted">Overall, it was interesting to put the nationalities of the comic book characters into perspective. Also, we managed to conduct some interesting analysis and visualisations, including interactive networks and word clouds. Furthermore, we have also put a lot of tools from the social graphs and interactions class into use. </p>
 			<p class="text-muted">The next step would definitely be to remove the limit on characters and include more than 10.000 characters, so we can get a full overview over the network of comic book characters from the Marvel universe. However, we decided not to do this for this iteration, as we spent a long time debugging decoding and encoding issues related to the already present 10.000 characters. Also, the process to retrieve all the internal links is already very long, so it would take us longer with more characters to examine. This brings us to the next point - an improvement could be to implement a model to process faster the big data set. These changes could have brought up more interesting conclusions with regards to the characters’ nationalities.</p>
 			<p class="text-muted">Talking about the natural language processing part of the project, the hardest part was to retrieve and clean the transcripts, and in the end not all wanted transcripts could be obtained due to bad formatting that was not consistent of the websites where the text was taken from. An improvement of this part would be that after the retrieval of all characters we could do an extensive analysis of all Marvel movies and characters and compare more characters across all movies, and  also compare the overall sentiments of the most important characters to get insights in their personalities, together with the analysis of their wordclouds.</p>
@@ -211,7 +211,7 @@
             <h3 class="section-subheading text-muted"></h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row" style="margin-right: -90px;">
           <div class="col-lg-4">
 			<div class="container">
 				<a href="https://nbviewer.jupyter.org/github/s183214/powerpuff.girls/blob/master/Marvel%20Universe%20-%20Explainer%20Notebook%20%28final%29.ipynb" target="_blank">
